@@ -3,10 +3,12 @@ package com.prueba.prueba.domain;
 public class Product {
     private int productId;
     private String product;
+    private int categoryId;
     private double price;
     private int stock;
     private boolean active;
     private Category category;
+
 
     public int getProductId() {
         return productId;
@@ -22,6 +24,14 @@ public class Product {
 
     public void setProduct(String product) {
         this.product = product;
+    }
+
+    public int getCategoryId() {
+        return categoryId;
+    }
+
+    public void setCategoryId(int categoryId) {
+        this.categoryId = categoryId;
     }
 
     public double getPrice() {

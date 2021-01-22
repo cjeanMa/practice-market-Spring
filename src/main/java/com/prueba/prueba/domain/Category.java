@@ -3,7 +3,7 @@ package com.prueba.prueba.domain;
 public class Category {
     private int categoryId;
     private String category;
-    private boolean state;
+    private boolean active;
 
     public int getCategoryId() {
         return categoryId;
@@ -21,11 +21,11 @@ public class Category {
         this.category = category;
     }
 
-    public boolean isState() {
-        return state;
+    public boolean isActive() {
+        return active;
     }
 
-    public void setState(boolean state) {
-        this.state = state;
+    public void setActive(boolean active) {
+        this.active = active;
     }
 }
